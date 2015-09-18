@@ -14,6 +14,12 @@
 		84EE35ED1BAC8C190046C904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EE35EC1BAC8C190046C904 /* Images.xcassets */; };
 		84EE35F01BAC8C190046C904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EE35EE1BAC8C190046C904 /* LaunchScreen.xib */; };
 		84EE35FC1BAC8C1A0046C904 /* AppleTreeMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE35FB1BAC8C1A0046C904 /* AppleTreeMobileTests.m */; };
+		84EE36131BAC90100046C904 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE36061BAC90100046C904 /* Apple.m */; };
+		84EE36141BAC90100046C904 /* AppleTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE36081BAC90100046C904 /* AppleTree.m */; };
+		84EE36151BAC90100046C904 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE360A1BAC90100046C904 /* Fruit.m */; };
+		84EE36161BAC90100046C904 /* Gardener.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE360C1BAC90100046C904 /* Gardener.m */; };
+		84EE36171BAC90100046C904 /* GeneralTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE360E1BAC90100046C904 /* GeneralTree.m */; };
+		84EE36181BAC90100046C904 /* Leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE36111BAC90100046C904 /* Leaf.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,20 @@
 		84EE35F51BAC8C1A0046C904 /* AppleTreeMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleTreeMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EE35FA1BAC8C1A0046C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EE35FB1BAC8C1A0046C904 /* AppleTreeMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTreeMobileTests.m; sourceTree = "<group>"; };
+		84EE36051BAC90100046C904 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Apple.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Apple.h; sourceTree = "<group>"; };
+		84EE36061BAC90100046C904 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Apple.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Apple.m; sourceTree = "<group>"; };
+		84EE36071BAC90100046C904 /* AppleTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleTree.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/AppleTree.h; sourceTree = "<group>"; };
+		84EE36081BAC90100046C904 /* AppleTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleTree.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/AppleTree.m; sourceTree = "<group>"; };
+		84EE36091BAC90100046C904 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fruit.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Fruit.h; sourceTree = "<group>"; };
+		84EE360A1BAC90100046C904 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fruit.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Fruit.m; sourceTree = "<group>"; };
+		84EE360B1BAC90100046C904 /* Gardener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gardener.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Gardener.h; sourceTree = "<group>"; };
+		84EE360C1BAC90100046C904 /* Gardener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gardener.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Gardener.m; sourceTree = "<group>"; };
+		84EE360D1BAC90100046C904 /* GeneralTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneralTree.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/GeneralTree.h; sourceTree = "<group>"; };
+		84EE360E1BAC90100046C904 /* GeneralTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneralTree.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/GeneralTree.m; sourceTree = "<group>"; };
+		84EE360F1BAC90100046C904 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Helper.h; sourceTree = "<group>"; };
+		84EE36101BAC90100046C904 /* Leaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leaf.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Leaf.h; sourceTree = "<group>"; };
+		84EE36111BAC90100046C904 /* Leaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Leaf.m; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Leaf.m; sourceTree = "<group>"; };
+		84EE36121BAC90100046C904 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = ../../../lab1/lab1SK/AppleSystem/AppleSystem/Tree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,20 @@
 		84EE35DE1BAC8C190046C904 /* AppleTreeMobile */ = {
 			isa = PBXGroup;
 			children = (
+				84EE36051BAC90100046C904 /* Apple.h */,
+				84EE36061BAC90100046C904 /* Apple.m */,
+				84EE36071BAC90100046C904 /* AppleTree.h */,
+				84EE36081BAC90100046C904 /* AppleTree.m */,
+				84EE36091BAC90100046C904 /* Fruit.h */,
+				84EE360A1BAC90100046C904 /* Fruit.m */,
+				84EE360B1BAC90100046C904 /* Gardener.h */,
+				84EE360C1BAC90100046C904 /* Gardener.m */,
+				84EE360D1BAC90100046C904 /* GeneralTree.h */,
+				84EE360E1BAC90100046C904 /* GeneralTree.m */,
+				84EE360F1BAC90100046C904 /* Helper.h */,
+				84EE36101BAC90100046C904 /* Leaf.h */,
+				84EE36111BAC90100046C904 /* Leaf.m */,
+				84EE36121BAC90100046C904 /* Tree.h */,
 				84EE35E31BAC8C190046C904 /* AppDelegate.h */,
 				84EE35E41BAC8C190046C904 /* AppDelegate.m */,
 				84EE35E61BAC8C190046C904 /* ViewController.h */,
@@ -219,8 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EE36181BAC90100046C904 /* Leaf.m in Sources */,
+				84EE36151BAC90100046C904 /* Fruit.m in Sources */,
+				84EE36131BAC90100046C904 /* Apple.m in Sources */,
 				84EE35E81BAC8C190046C904 /* ViewController.m in Sources */,
 				84EE35E51BAC8C190046C904 /* AppDelegate.m in Sources */,
+				84EE36161BAC90100046C904 /* Gardener.m in Sources */,
+				84EE36141BAC90100046C904 /* AppleTree.m in Sources */,
+				84EE36171BAC90100046C904 /* GeneralTree.m in Sources */,
 				84EE35E21BAC8C190046C904 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
