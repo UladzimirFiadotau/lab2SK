@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _appleTree = [AppleTree appleTreeWithAppleCount:10];
     return YES;
 }
 

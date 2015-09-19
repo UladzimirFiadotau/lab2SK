@@ -13,4 +13,5 @@
 + (AppleTree *) appleTreeWithAppleCount: (int) appleCount;
 - (id) init;
 - (id) initWithAppleCount: (int) appleCount;
+- (int) getAppleCount;
 @end

@@ -34,7 +34,7 @@
 - (void) shake {
     [super shake];
     unsigned int countOfApples = (unsigned int)[_apples count];
-    int toFall = arc4random_uniform(countOfApples);
+    int toFall = arc4random_uniform(MIN(10, countOfApples + 1));
     
     for (int i = 0; i < toFall; i++) {
         int index = arc4random_uniform(--countOfApples);
@@ -68,6 +68,10 @@
     } else {
         return nil;
     }
+}
+
+- (int) getAppleCount {
+    return [_apples count];
 }
 
 @end

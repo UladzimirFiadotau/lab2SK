@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841F423C1BAD6AC200702955 /* apple0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F42361BAD6AC200702955 /* apple0.jpg */; };
+		841F423D1BAD6AC200702955 /* apple1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F42371BAD6AC200702955 /* apple1.jpg */; };
+		841F423E1BAD6AC200702955 /* apple2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F42381BAD6AC200702955 /* apple2.jpg */; };
+		841F423F1BAD6AC200702955 /* apple3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F42391BAD6AC200702955 /* apple3.jpg */; };
+		841F42401BAD6AC200702955 /* apple4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F423A1BAD6AC200702955 /* apple4.jpg */; };
+		841F42411BAD6AC200702955 /* apple5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 841F423B1BAD6AC200702955 /* apple5.jpg */; };
 		84EE35E21BAC8C190046C904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE35E11BAC8C190046C904 /* main.m */; };
 		84EE35E51BAC8C190046C904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE35E41BAC8C190046C904 /* AppDelegate.m */; };
 		84EE35E81BAC8C190046C904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE35E71BAC8C190046C904 /* ViewController.m */; };
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841F42361BAD6AC200702955 /* apple0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple0.jpg; sourceTree = "<group>"; };
+		841F42371BAD6AC200702955 /* apple1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple1.jpg; sourceTree = "<group>"; };
+		841F42381BAD6AC200702955 /* apple2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple2.jpg; sourceTree = "<group>"; };
+		841F42391BAD6AC200702955 /* apple3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple3.jpg; sourceTree = "<group>"; };
+		841F423A1BAD6AC200702955 /* apple4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple4.jpg; sourceTree = "<group>"; };
+		841F423B1BAD6AC200702955 /* apple5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple5.jpg; sourceTree = "<group>"; };
 		84EE35DC1BAC8C190046C904 /* AppleTreeMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTreeMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EE35E01BAC8C190046C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EE35E11BAC8C190046C904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +95,12 @@
 		84EE35D31BAC8C190046C904 = {
 			isa = PBXGroup;
 			children = (
+				841F42361BAD6AC200702955 /* apple0.jpg */,
+				841F42371BAD6AC200702955 /* apple1.jpg */,
+				841F42381BAD6AC200702955 /* apple2.jpg */,
+				841F42391BAD6AC200702955 /* apple3.jpg */,
+				841F423A1BAD6AC200702955 /* apple4.jpg */,
+				841F423B1BAD6AC200702955 /* apple5.jpg */,
 				84EE35DE1BAC8C190046C904 /* AppleTreeMobile */,
 				84EE35F81BAC8C1A0046C904 /* AppleTreeMobileTests */,
 				84EE35DD1BAC8C190046C904 /* Products */,
@@ -233,6 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F423C1BAD6AC200702955 /* apple0.jpg in Resources */,
+				841F423D1BAD6AC200702955 /* apple1.jpg in Resources */,
+				841F423E1BAD6AC200702955 /* apple2.jpg in Resources */,
+				841F423F1BAD6AC200702955 /* apple3.jpg in Resources */,
+				841F42401BAD6AC200702955 /* apple4.jpg in Resources */,
+				841F42411BAD6AC200702955 /* apple5.jpg in Resources */,
 				84EE35EB1BAC8C190046C904 /* Main.storyboard in Resources */,
 				84EE35F01BAC8C190046C904 /* LaunchScreen.xib in Resources */,
 				84EE35ED1BAC8C190046C904 /* Images.xcassets in Resources */,
@@ -456,6 +480,7 @@
 				84EE36011BAC8C1A0046C904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EE36021BAC8C1A0046C904 /* Build configuration list for PBXNativeTarget "AppleTreeMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				84EE36041BAC8C1A0046C904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
